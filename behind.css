@@ -1,0 +1,42 @@
+body {
+    background-color: #d2b2a4;
+    font-style: italic;
+}
+
+
+
+h1 {
+    color: rgb(110, 2, 2);
+    text-transform: none;
+    text-decoration: underline;
+    text-align: center;
+}
+.image-text { 
+    display: flex; 
+    align-items: center; 
+    font-size: 27px;
+    color: #5b1f03;
+} 
+
+.image-block, .text-right { 
+    flex: 1;   
+    padding: 10px;  
+} 
+
+.image-block img { 
+    width: 100%; 
+    max-width: 600px;
+}
+
+p {
+    font-style: normal;
+    padding: 10px 10px;
+    font-size: 30px;
+}
+
+img {
+    width: 70%;
+    border: 2px solid;
+    border-color: #584035;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
